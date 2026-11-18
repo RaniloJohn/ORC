@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "orc-ui",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["--disable-warning=ExperimentalWarning", "src/cli.ts", "ui", "--no-open", "--port", "47517"],
+      "port": 47517
+    },
+    {
+      "name": "orc-ui-test",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["--disable-warning=ExperimentalWarning", "src/cli.ts", "ui", "--no-open", "--port", "47530"],
+      "port": 47530
+    }
+  ]
+}
